@@ -1,0 +1,23 @@
+{
+  "name": "costflow-docs",
+  "version": "1.0.0",
+  "description": "Costflow Docs",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costflow/docs.git"
+  },
+  "keywords": [],
+  "author": "leplay <leqcany@gmail.com> (https://github.com/leplay)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/costflow/docs/issues"
+  },
+  "homepage": "https://docs.costflow.io/",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
