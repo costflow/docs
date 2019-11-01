@@ -6,7 +6,7 @@ lang: en-US
 # Costflow Syntax Changelog
 
 ## [v0.2 (2019-08-27)](/syntax/v0.2)
-Features:
+What's new:
 - Insert links.
 - Add time info to transactions.
 - Simpler date format.

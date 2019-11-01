@@ -25,6 +25,7 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           '/syntax/v0.2',
+          '/zh/syntax/',
           '/syntax/changelog'
         ]
       },
