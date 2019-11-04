@@ -10,6 +10,8 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/costflow' }
     ],
     lastUpdated: 'Last Updated',
+    repo: 'costflow/docs',
+    editLinks: true,
     displayAllHeaders: true,
     sidebar: [
       {
