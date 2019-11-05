@@ -18,6 +18,7 @@
   },
   "homepage": "https://docs.costflow.io/",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "vuepress": "^1.2.0"
   }
 }
