@@ -5,6 +5,10 @@ lang: zh-CN
 
 # 更新日志
 
+## [v0.3 (2019-11-25)](/zh/syntax/v0.3)
+新增功能：
+- [Formula 公式](/zh/syntax/v0.3.html#formula).
+
 ## [v0.2 (2019-08-27)](/zh/syntax/v0.2)
 新增功能：
 - 自动插入 link；
