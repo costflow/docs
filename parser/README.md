@@ -16,20 +16,33 @@ npm install costflow
 const costflow = require('costflow')
 
 const config = {
-  mode: 'beancount',
-  currency: 'USD',
-  timezone: 'America/Whitehorse',
-  tag: '#costflow',
-  link: '^trip',
-  replacement: {
-    'aapl': 'Assets:ETrade:AAPL',
-    'bofa': 'Assets:US:BofA:Checking',
-    'phone': 'Expenses:Home:Phone',
-  },
-  insertTime: 'metadata',
-  alphavantage: 'YOUR_KEY_HERE',
-  indent: 2,
-  lineLength: 60
+    "mode": "beancount",
+    "currency": "USD",
+    "timezone": "America/Whitehorse",
+    "tag": "#costflow",
+    "replacement": {
+        "eob": "Equity:Opening-Balances",
+        "bofa": "Assets:US:BofA:Checking",
+        "rx": "Assets:Receivables:X",
+        "ry": "Assets:Receivables:Y",
+        "boc": "Assets:CN:BOC",
+        "cloud": "Expenses:Cloud",
+        "cmb": "Liabilities:CreditCard:CMB",
+        "food": "Expenses:Food",
+        "phone": "Expenses:Home:Phone",
+        "rent": "Expenses:Home:Rent",
+        "subscription": "Expenses:Subscriptions",
+        "visa": "Liabilities:CreditCard:Visa"
+    },
+    "formula": {
+        "☕️": "@Leplays ☕️ {{ amount }} Liabilities:CreditCard:Visa > Expenses:Coffee",
+        "c2f": "{{ pre }} cmb > food",
+        "gcp": "@Google {{ amount }} USD visa > cloud",
+        "spotify": "@Spotify 15.98 USD visa > subscription"
+    },
+    "alphavantage": null,
+    "indent": 2,
+    "lineLength": 50
 }
 
 costflow.parse('@Verizon 59.61 bofa > phone', config).then(function (response) {
@@ -80,6 +93,14 @@ Check [Costflow Syntax](https://docs.costflow.io/costflow-syntax/en#general-rule
     "aapl": "Assets:ETrade:AAPL",
     "bofa": "Assets:US:BofA:Checking",
     "phone": "Expenses:Home:Phone",
+  },
+
+  // Formula, added on Syntax v0.3. Get more info on https://docs.costflow.io/syntax/
+  "formula": {
+    "☕️": "@Leplays ☕️ {{ amount }} Liabilities:CreditCard:Visa > Expenses:Coffee",
+    "c2f": "{{ pre }} cmb > food",
+    "gcp": "@Google {{ amount }} USD visa > cloud",
+    "spotify": "@Spotify 15.98 USD visa > subscription"
   },
 
   // Insert time to every transaction, the value is the position to insert.

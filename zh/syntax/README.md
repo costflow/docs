@@ -4,7 +4,7 @@ lang: zh-CN
 ---
 # Costflow 语法规则
 
-![v0.2](https://img.shields.io/badge/Costflow%20Syntax-v0.2-green)
+![v0.3](https://img.shields.io/badge/Costflow%20Syntax-v0.3-green)
 
 [Costflow](https://www.costflow.io/) 是一个提升复式记账效率的工具，通过连接聊天工具与云存储的方式来解决现有复式记账记录麻烦和移动设备无法记录的问题。更多 Costflow 的介绍可以查看[这篇文章](https://blog.costflow.io/zh/introducing-costflow-zh/)。Costflow 语法则是其中解析文本到记账工具格式的规则。
 
@@ -23,7 +23,7 @@ Dinner #trip 200 bofa > trip
 ```
 
 # 文档
-- [中文简体](/zh/syntax/v0.2)
+- [中文简体](/zh/syntax/v0.3)
 - [English](/syntax/)
 
 # Playground
