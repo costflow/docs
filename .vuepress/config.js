@@ -26,7 +26,7 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/syntax/v0.2',
+          '/syntax/v0.3',
           '/zh/syntax/',
           '/syntax/changelog'
         ]
