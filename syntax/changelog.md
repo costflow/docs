@@ -5,6 +5,16 @@ lang: en-US
 
 # Costflow Syntax Changelog
 
+
+## [v1.0 (2020-11-12)](/zh/syntax/v1.0)
+What's new:
+- Rewrite Costflow Parser with TypeScript;
+- Rename `replacement` to `account`;
+- Custom flowSymbol;
+- Custom pipeSymbol;
+- Default account;
+
+
 ## [v0.3 (2019-11-25)](/syntax/v0.3)
 What's new:
 - [Formula](/syntax/v0.3.html#formula).
@@ -23,4 +33,3 @@ Features:
 - Get real time price for exchanging rate or stock, even cryptocurrency.
 - Simple transaction syntax.
 - Custom indent and line length.
-

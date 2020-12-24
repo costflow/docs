@@ -4,7 +4,7 @@ lang: en-US
 ---
 
 # Costflow Syntax
-![v0.3](https://img.shields.io/badge/Costflow%20Syntax-v0.3-green)
+![v1.0](https://img.shields.io/badge/Costflow%20Syntax-v1.0-green)
 
 [Costflow](https://www.costflow.io/) is a productivity tool for plain text accounting. By connecting messaging apps with cloud storage services, it can be much easier to create new directives/entries, especially on mobile devices. You can get more details in [this post](https://blog.costflow.io/introducing-costflow/).
 
@@ -25,7 +25,7 @@ Costflow will parse it to the content below (in Beancount format):
 ```
 
 # Docs
-- [English](https://docs.costflow.io/syntax/v0.3)
+- [English](https://docs.costflow.io/syntax/v1.0)
 - [中文简体](https://docs.costflow.io/zh/syntax/)
 
 # Playground

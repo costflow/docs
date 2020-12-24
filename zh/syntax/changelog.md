@@ -5,6 +5,16 @@ lang: zh-CN
 
 # 更新日志
 
+## [v1.0 (2020-11-12)](/zh/syntax/v1.0)
+
+新增功能：
+- 使用 TypeScript 重构了 Costflow Parser;
+- 将 `replacement` 重命名为 `account`;
+- 自定义 flowSymbol;
+- 自定义 pipeSymbol;
+- 默认账户；
+
+
 ## [v0.3 (2019-11-25)](/zh/syntax/v0.3)
 新增功能：
 - [Formula 公式](/zh/syntax/v0.3.html#formula).

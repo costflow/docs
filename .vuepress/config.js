@@ -5,9 +5,9 @@ module.exports = {
     logo: '/img/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Blog', link: 'http://blog.costflow.io/' },
-      { text: 'Playground', link: 'http://playground.costflow.io/' },
-      { text: 'Github', link: 'https://github.com/costflow' }
+      { text: 'Blog', link: 'https://blog.costflow.io/' },
+      { text: 'Playground', link: 'https://playground.costflow.io/' },
+      { text: 'Self-Hosted Costflow Hub', link: 'https://hub.costflow.io/' },
     ],
     lastUpdated: 'Last Updated',
     repo: 'costflow/docs',
@@ -26,7 +26,7 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/syntax/v0.3',
+          '/syntax/v1.0',
           '/zh/syntax/',
           '/syntax/changelog'
         ]
@@ -35,12 +35,7 @@ module.exports = {
         title: 'Costflow Hub',
         path: '/hub/',
         collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          '/hub/get-started',
-          '/hub/best-practices',
-          '/hub/privacy'
-        ]
+        sidebarDepth: 1
       },
       {
         title: 'Costflow CLI',
